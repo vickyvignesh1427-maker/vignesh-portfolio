@@ -1,0 +1,289 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body {
+    align-items: center;
+    
+  font-family: 'Poppins', sans-serif;}
+
+ nav{
+
+    
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 10px 10px;
+    
+    
+}
+nav a{
+    padding-right: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+
+    
+
+
+}
+nav .name a{
+    font-weight: 700;
+    padding-left: 10px;
+    
+}
+.row span{
+   padding-right: 4px;
+}
+.row a:last-child{
+    border:1px solid black;
+    background-color: black;
+
+}
+nav .row a:last-child{
+    color: white;
+    padding: 2px 5px;
+    border-radius: 4px;
+
+}
+/*section1*/
+.me {
+    display: flex;
+    justify-content: space-between;
+    margin:20px;
+
+}
+ .me div img{
+  
+   
+     width: 300px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    object-fit: cover;
+   
+   
+    
+}
+.me .text{
+   direction: row;
+
+  
+  
+
+
+}
+
+.me .link a{
+ 
+    border: 2px solid rgb(57, 4, 248);
+    margin:2px;
+    padding:3px  10px;
+    text-decoration: none;
+    display: inline-block;
+    
+    transition: .1s;
+
+}
+.me .link a:hover{
+    color: black;
+    border-color: black;
+  
+}
+
+.me {
+   gap: 40px;
+}
+.me .text p{
+    padding-bottom:20px ;
+    
+
+}
+/*section2*/
+
+.me1 a img{
+     height: 35px;
+     width:35px;
+     object-fit: contain;
+     
+}
+.me1{
+    padding:30px;
+
+}
+.me1 h2{
+    text-align: center;
+    padding-top: 100px;
+}
+.me1 p{
+    text-align: center;
+}
+
+.me1 .link1{
+    display: flex;
+    justify-content: center;
+ 
+    flex-wrap: wrap;
+}
+    .me1 .link1 img{
+        width: 30px;
+    }    
+.me1 .link1 .elements{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap:5px;
+
+        border:1.6px solid rgb(101, 96, 96);
+        border-radius: 5px;
+        padding:10px 25px;
+        margin:20px 20px;
+        transition:0.3s;
+    }
+    .me1 .link1 .elements:hover{
+        transform:scale(1.1);    }
+    /*section3*/
+    .me2{
+        padding: 30px;
+
+    }
+   .me2 .img1 h2{
+    text-align: center;
+   }
+    .me2 h2{
+        font-weight: bold;
+        padding-bottom: 40px;
+    }
+   
+    .me2 .img1 img{
+        aspect-ratio: 1/1;
+        border-radius: 50%;
+width:300px;
+
+    }
+   .me2 {
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+   }
+   
+   
+.me2 .img1 h4{
+    flex-direction: row;
+    text-align: center;
+}
+/*section4*/
+.me3 .img2 form{
+    display: flex;
+    flex: 3;
+    flex-direction: column;
+}
+.me3 .img2 form input,
+.me3 .img2 form textarea{
+    margin-bottom: 20px;
+    padding: 5px;
+    resize: none;
+    outline:none;
+}
+.me3 .img2 form button{
+    height: 40px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif ;
+    transition: .1s;}
+    .me3 .img2 form button:hover{
+    filter: brightness(.9);
+}
+.me3{
+    padding:30px;
+}
+.me3 h2{
+  flex-direction: row;
+text-align: center;
+}
+
+@media (max-width:850px)
+{  
+
+    .me .text h2{
+        font-size: 29px;
+    }
+
+}
+@media (max-width:750px){
+    .me {
+  flex-direction: column-reverse;
+  align-items: center;
+ 
+  
+  
+    }
+    .me .img img{
+        width: 300px;
+        
+    }
+    .me2{
+        flex-direction: column;
+    }
+    
+    
+ main{
+    padding: 10px;
+ }
+
+ 
+
+}
+
+@media (max-width:600px){
+
+  nav .row{
+    padding: 0 20px;
+  }
+ 
+    nav .row span{
+        display: none;
+       
+        
+    }
+    .me .text{
+        text-align: center;
+    }
+    
+    }
+   
+nav .row a:last-child{
+  color: black;
+  background-color: transparent;
+  border: none;
+  
+}
+
+
+/*section1*/
+
+
+main{
+  padding:0  10px;
+}
+
+
+/*section2*/
+.me1{
+    padding: 0 20px;
+}
+
+
+
+/*section3*/
+
+
+
